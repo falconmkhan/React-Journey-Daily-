@@ -8,6 +8,7 @@ function Header() {
 
     return (
         <>
+        <nav>
             <div>
                 <a href="https://react.dev" target="_blank">
                     <img src={reactLogo} className="logo react" alt="React logo" />
@@ -22,6 +23,7 @@ function Header() {
                     Table Of 5 =  {table5}
                 </button>
             </div>
+            </nav>
         </>
     )
 }
