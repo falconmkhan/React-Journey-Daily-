@@ -1,8 +1,9 @@
 import './App.css'
 // import Header from './Header'
-import Conditonals from './Conditionals'
+// import Conditonals from './Conditionals'
 // import Attributes from './Attributes'
 // import Propss from './Props'
+import Parent from './PropsChilds'
 
 function App() {
 
@@ -20,12 +21,16 @@ function App() {
   // let model = "Lenove Thinkpad T14"
 
 
+  // Variable For Parent Component===========
+  // let child = "none"
+
   return (
     <>
       {/* <Header /> */}
       {/* <Propss  object={obj} array={arr} string={str} number={num}/> */}
       {/* <Conditonals action={action} limit={limit} model={model}/>  */}
       {/* <Attributes /> */}
+      {/* <Parent  child={child}/> */}
 
     </>
   )
