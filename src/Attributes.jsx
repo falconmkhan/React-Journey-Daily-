@@ -24,17 +24,17 @@ function Attributes(){
         <h3 className={a}>Expressions as Attributes  "{a}"</h3>
        
         <br />
-        {/* Here its onclick. Cheack Console for Error */}
+        Here its onclick. Cheack Console for Error
         <button onclick="myFunction()" >In Js "Here Wont Work"</button>  
 
-        {/* But in react it's onClick (camelCase) */}
+        But in react it's onClick (camelCase)
         <button onClick={myFunction} >In React "This Will Work"</button>
 
-        {/* Now button becomes disabled it's called Boolean Attribute */}
+        Now button becomes disabled it's called Boolean Attribute
         <button disabled>Disabled Button</button>
         <button disabled={true}>Disabled With True</button>
         <br /> <br />
-        {/* Style Attribute  */}
+        Style Attribute 
         <button style={myStyles}>Style Attribute</button>
         </>
     )
