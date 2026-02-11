@@ -15,7 +15,7 @@ const Navbar = () => {
 
                     </li>
                     <li>
-                        <Link to="/attributes">Props Page</Link>
+                        <Link to="/attributes">Attribute Page</Link>
 
                     </li>
                     <li>
@@ -24,10 +24,13 @@ const Navbar = () => {
                     </li>
                     <li>
                         <Link to="/parent">Props Parent Page</Link>
-
                     </li>
                     <li>
                         <Link to="/router">Router Page</Link>
+
+                    </li>
+                    <li>
+                        <Link to="/hooks">Hooks Page</Link>
 
                     </li>
                 </ul>

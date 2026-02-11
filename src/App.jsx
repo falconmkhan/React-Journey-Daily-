@@ -9,6 +9,7 @@ import Propss from './Props'
 import Parent from './PropsChilds'
 import ErrorPage from './ErrorPage'
 import Navbar from './Navbar'
+import Hooks from './Hooks'
 
 function App() {
 
@@ -49,6 +50,7 @@ function App() {
           <Route path="/propss" element={<Propss object={obj} array={arr} string={str} number={num} />}></Route>
           <Route path="/parent" element={<Parent child={child} />}></Route>
           <Route path="/router" element={<Router />}></Route>
+          <Route path="/hooks" element={<Hooks />}></Route>
           <Route path='*' element={<ErrorPage />}></Route>
         </Routes>
 
