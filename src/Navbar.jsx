@@ -33,6 +33,10 @@ const Navbar = () => {
                         <Link to="/hooks">Hooks Page</Link>
 
                     </li>
+                    <li>
+                        <Link to="/fetchdata">Fetch Data</Link>
+
+                    </li>
                 </ul>
 
             </nav>

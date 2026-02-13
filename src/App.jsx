@@ -1,7 +1,6 @@
 import './App.css'
 import Router from './Router'
 import { BrowserRouter, Route, Routes } from "react-router-dom"
-
 import Header from './Header'
 import Conditonals from './Conditionals'
 import Attributes from './Attributes'
@@ -10,6 +9,8 @@ import Parent from './PropsChilds'
 import ErrorPage from './ErrorPage'
 import Navbar from './Navbar'
 import Hooks from './Hooks'
+import FetchData from './FetchData'
+import ShowData from './ShowData'
 
 function App() {
 
@@ -51,6 +52,8 @@ function App() {
           <Route path="/parent" element={<Parent child={child} />}></Route>
           <Route path="/router" element={<Router />}></Route>
           <Route path="/hooks" element={<Hooks />}></Route>
+          <Route path="/fetchdata" element={<FetchData />}></Route>
+          <Route path="/fetchdata/product/:id" element={<ShowData />}></Route>
           <Route path='*' element={<ErrorPage />}></Route>
         </Routes>
 
